@@ -17,7 +17,7 @@ public class NewDuoTeleOpMainTest extends OpMode {
     private DcMotor leftFront, rightFront, leftRear, rightRear;
 
     public void driveTrain() {
-        double y = -gamepad1.left_stick_y; // Y axis for forward/backwards
+        double y =-gamepad1.left_stick_y; // Y axis for forward/backwards
         double x = gamepad1.left_stick_x; // Left stick X for strafe
         double rx = gamepad1.right_stick_x; // Right stick X for rotation
 
