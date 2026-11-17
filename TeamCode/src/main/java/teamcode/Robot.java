@@ -93,7 +93,7 @@ public class Robot
              RobotParams.Preferences.useColorBlobVision ||
              RobotParams.Preferences.useLimelightVision))
         {
-            vision = new Vision(this);
+            //vision = new Vision(this);
         }
         // If robotType is VisionOnly, the robot controller is disconnected from the robot for testing vision.
         // In this case, we should not instantiate any robot hardware.
